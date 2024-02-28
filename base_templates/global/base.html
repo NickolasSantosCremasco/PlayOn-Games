@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "inicial/partials/head.html" %}
+    <title>{% block title %}{% endblock title %} PlayOn</title>
+</head>
+<body>
+
+
+    <main class="main-content-container">
+        {% block content %}{% endblock content %}
+    </main>
+
+
+
+    <!--On app1 > partial > head.html-->
+    {% block JS %}{% endblock JS %}
+  
+</body>
+</html>
