@@ -1,7 +1,9 @@
 {% load static %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="{% static "inicial/css/style.css" %}">
+<link rel="stylesheet" href="{% static "inicial/css/estilo.css" %}">
+
+{% block styles %}{% endblock styles %}
 
 <!--Fonts: Press Start 2D , Open Sans, -->
 
@@ -14,4 +16,7 @@
 <!--Remixicons-->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
-<script src="{% static "inicial/js/script.js" %}"></script>   
+<script src="{% static "inicial/js/script.js" %}" defer></script>   
+
+<!--AnimeJS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
