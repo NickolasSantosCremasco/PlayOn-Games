@@ -9,44 +9,40 @@
 
 
 
-<section class="hero">
-    <div class="carousel">
-        <div class="animation-movement" style="--i:5"></div>
-        <div class="animation-movement" style="--i:4"></div>
-        </div>
-        <div class="animation-movement" style="--i:3"></div>
-        </div>
-        <div class="animation-movement" style="--i:1"></div>
-        </div>
-        <div class="animation-movement" style="--i:7"></div>
-        </div>
-        <div class="animation-movement" style="--i:2"></div>
-        </div>
-        <div class="animation-movement" style="--i:19"></div>
-        </div>
-        <div class="animation-movement" style="--i:16"></div>
-        </div>
-        <div class="animation-movement" style="--i:18"></div>
-        </div>
-        <div class="animation-movement" style="--i:10"></div>
-        </div>
-        <div class="animation-movement" style="--i:14"></div>
+<section class="slider">
+    <div class="slider-content">
+
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+
+        <div class="slider-box first">
+            <img src="{% static "inicial\img\pixelart1-desktop.jpeg" %}" alt="Slide 1">
+            <img class="img-mobile" src="{% static "inicial\img\pixelart1-mobile.jpeg" %}" alt=" Slide 1">
         </div>
 
-        <div class="container-text">
-            <div class="hero-text">
-                <h4>Fan Games</h4>
-                <h1 id="playon">Play <span>ON</span></h1>
-                <p>Entregamos uma experiência de jogo inigualável, combinando nostalgia com a emoção dos jogos modernos. Seja você um veterano dos fliperamas ou um novo entusiasta, o <span>PlayOn</span> é o seu playground digital, repleto de diversão e desafios.</p>
-            </div>
-            <div class="hero-img">
-                
-                <img src="" alt="">
-            </div>
+        <div class="slider-box">
+            <img src="{% static "inicial\img\pixelart1-desktop.jpeg" %}" alt="Slide 2">
+            <img class="img-mobile"  src="{% static "inicial\img\pixelart1-mobile.jpeg" %}" alt=" Slide 2">
+        </div>
+        <div class="slider-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUER9IoskeizXNP5ZhefsnzO0x9Q-DBiGc2A&usqp=CAU" alt="Slide 3">
+            <img class="img-mobile"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUER9IoskeizXNP5ZhefsnzO0x9Q-DBiGc2A&usqp=CAU" alt=" Slide 3">
+        </div>
+
+        <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio1" class="manual-btn"></label>
         </div>
     </div>
 
-   
+
 
 </section>
 
